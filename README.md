@@ -33,28 +33,15 @@ Pandas
 Twilio
 <!-- How to use -->
 <h2>🔧 Como Usar</h2>
-Clone o repositório para o seu computador.
-bash
-Copy code
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Instale as bibliotecas Pandas e Twilio.
-bash
-Copy code
-pip install pandas twilio
-Adicione suas credenciais do Twilio no arquivo Python.
-python
-Copy code
-# Your Account SID from twilio.com/console
-account_sid = "YOUR_ACCOUNT_SID_HERE"
-# Your Auth Token from twilio.com/console
-auth_token  = "YOUR_AUTH_TOKEN_HERE"
+Clone o repositório do projeto.
 
-client = Client(account_sid, auth_token)
-Coloque suas planilhas do Excel no diretório do projeto.
-Execute o arquivo Python no terminal.
-bash
-Copy code
-python main.py
+Instale as dependências utilizando o comando:
+
+pip install -r requirements.txt
+
+Substitua as Keys do Twilio
+
+Execute o script do projeto.
 <!-- Contributions -->
 <h2>👥 Contribuições</h2>
 Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor, crie um pull request ou entre em contato comigo para discutirm
